@@ -7,6 +7,4 @@ app.get("/", (req, res) => {
 
 app.use(express.static("public"));
 
-app.listen(3000, () => {
-    console.log("WORKING");
-});
+app.listen(3000);
